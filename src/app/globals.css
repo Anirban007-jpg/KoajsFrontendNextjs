@@ -15,14 +15,17 @@
 
 @theme {
   --animate-spin: spin 5s linear infinite;
+  --background-image-circular : repeating-radial-gradient(rgba(0,0,0,0.4) 2px, #ededed 5px,#ededed 100px);
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
 }
+ */
+
 
 body {
   background: var(--background);

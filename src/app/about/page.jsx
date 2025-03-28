@@ -5,6 +5,7 @@ import React from 'react'
 
 
 import AboutUs from '@/components/AboutUs';
+import SkillsCom from '@/components/SkillsCom';
 
 export const metadata = {
     title: "FINANCIA | ABOUT PAGE",
@@ -17,6 +18,7 @@ const page = () => {
     <>
     <Navbar />
       <AboutUs />
+      <SkillsCom />
     <Footer/>
     </>
   )
