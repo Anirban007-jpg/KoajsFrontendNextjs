@@ -2,9 +2,9 @@ import React from 'react'
 import Layout from './Layout'
 import Link from 'next/link'
 
-const Footer = () => {
+const Footer = ({className=""}) => {
   return (
-    <footer className='w-full flex flex-row border-t-2 border-solid border-gray-500 font-bold text-lg'>
+    <footer className={`${className} w-full flex flex-row border-t-2 border-solid border-gray-500 font-bold text-lg`}>
         <Layout className='py-8 flex items-center justify-between'>
             <span>{new Date().getFullYear()} &copy; All Rights Reserved</span>
             <div className='flex items-center'>

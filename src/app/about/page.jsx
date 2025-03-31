@@ -19,7 +19,7 @@ const page = () => {
     <Navbar />
       <AboutUs />
       <SkillsCom />
-    <Footer/>
+    <Footer className='!mt-[280px]'/>
     </>
   )
 }
